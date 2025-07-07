@@ -1,0 +1,5 @@
+#!/bin/bash
+# Reads the last line of the file 'iacta' and appends it to the file
+
+last_line=$(tail -n 1 iacta)
+echo "$last_line" >> iacta
